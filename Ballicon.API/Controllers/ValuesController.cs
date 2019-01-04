@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Ballicon.API.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace Ballicon.API.Controllers
 {
@@ -10,11 +12,30 @@ namespace Ballicon.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly IUserRepository _userRepository;
+        private readonly ILogger _logger;
+
+        public ValuesController(IUserRepository userRepository, ILogger<ValuesController> logger)
+        {
+            _userRepository = userRepository;
+            _logger = logger;
+        }
+
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public async Task<IActionResult> Get()
         {
-            return new string[] { "value1", "value2" };
+            var users = await _userRepository.GetUsersAsync();
+
+            _logger.LogInformation("Info {users}", users);
+            _logger.LogWarning("Warning {users}", users);
+            _logger.LogError("Error {users}", users);
+            _logger.LogCritical("Critical {users}", users);
+
+            if (users != null)
+                return Ok(users);
+
+            return BadRequest("Could not access repository");
         }
 
         // GET api/values/5

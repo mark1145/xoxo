@@ -1,0 +1,17 @@
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Ballicon.API.Tests.deps.json
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Ballicon.API.Tests.runtimeconfig.json
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Ballicon.API.Tests.runtimeconfig.dev.json
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Ballicon.API.Tests.dll
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Ballicon.API.Tests.pdb
+C:\_C .NET\Balliconned\Ballicon.API.Tests\obj\Debug\netcoreapp2.1\Ballicon.API.Tests.csprojAssemblyReference.cache
+C:\_C .NET\Balliconned\Ballicon.API.Tests\obj\Debug\netcoreapp2.1\Ballicon.API.Tests.csproj.CoreCompileInputs.cache
+C:\_C .NET\Balliconned\Ballicon.API.Tests\obj\Debug\netcoreapp2.1\Ballicon.API.Tests.AssemblyInfoInputs.cache
+C:\_C .NET\Balliconned\Ballicon.API.Tests\obj\Debug\netcoreapp2.1\Ballicon.API.Tests.AssemblyInfo.cs
+C:\_C .NET\Balliconned\Ballicon.API.Tests\obj\Debug\netcoreapp2.1\Ballicon.API.Tests.dll
+C:\_C .NET\Balliconned\Ballicon.API.Tests\obj\Debug\netcoreapp2.1\Ballicon.API.Tests.pdb
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Ballicon.API.dll
+C:\_C .NET\Balliconned\Ballicon.API.Tests\bin\Debug\netcoreapp2.1\Ballicon.API.pdb
+C:\_C .NET\Balliconned\Ballicon.API.Tests\obj\Debug\netcoreapp2.1\Ballicon.API.Tests.csproj.CopyComplete

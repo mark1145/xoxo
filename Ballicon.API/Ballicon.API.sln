@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ballicon.API", "Ballicon.API.csproj", "{91A4DF81-DED3-466C-99E3-085FBE4D7946}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ballicon.API.Tests", "..\Ballicon.API.Tests\Ballicon.API.Tests.csproj", "{598D692B-4831-4FEE-BE64-4FCF7129EF72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A4DF81-DED3-466C-99E3-085FBE4D7946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A4DF81-DED3-466C-99E3-085FBE4D7946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A4DF81-DED3-466C-99E3-085FBE4D7946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A4DF81-DED3-466C-99E3-085FBE4D7946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598D692B-4831-4FEE-BE64-4FCF7129EF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598D692B-4831-4FEE-BE64-4FCF7129EF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598D692B-4831-4FEE-BE64-4FCF7129EF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598D692B-4831-4FEE-BE64-4FCF7129EF72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08EC5F83-E01B-4820-B977-A85DDAC91602}
+	EndGlobalSection
+EndGlobal
